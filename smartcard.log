@@ -1,0 +1,40 @@
+2019-05-13 12:37:45.468  INFO 16548 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Starting SmartcardApplication on WKWIN3386050 with PID 16548 (started by narkumar8 in C:\Users\narkumar8\Bench Workspace\smartcard)
+2019-05-13 12:37:45.469  INFO 16548 --- [restartedMain] c.s.smartcard.SmartcardApplication       : No active profile set, falling back to default profiles: default
+2019-05-13 12:37:45.740  INFO 16548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-05-13 12:37:45.741  INFO 16548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-13 12:37:45.742  INFO 16548 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-13 12:37:45.758  INFO 16548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-13 12:37:45.758  INFO 16548 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 288 ms
+2019-05-13 12:37:45.824  INFO 16548 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:37:45.882  INFO 16548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-13 12:37:45.894  INFO 16548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64080 (http) with context path ''
+2019-05-13 12:37:45.895  INFO 16548 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Started SmartcardApplication in 0.451 seconds (JVM running for 2360.977)
+2019-05-13 12:37:45.896  INFO 16548 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-13 12:38:16.002  INFO 16548 --- [Thread-70] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:38:16.237 ERROR 16548 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'DEBUG, stdout, file' for 'null'
+2019-05-13 12:38:16.241  INFO 16548 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Starting SmartcardApplication on WKWIN3386050 with PID 16548 (started by narkumar8 in C:\Users\narkumar8\Bench Workspace\smartcard)
+2019-05-13 12:38:16.241  INFO 16548 --- [restartedMain] c.s.smartcard.SmartcardApplication       : No active profile set, falling back to default profiles: default
+2019-05-13 12:38:16.481  INFO 16548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-05-13 12:38:16.482  INFO 16548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-13 12:38:16.482  INFO 16548 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-13 12:38:16.493  INFO 16548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-13 12:38:16.493  INFO 16548 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 249 ms
+2019-05-13 12:38:16.566  INFO 16548 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:38:16.621  INFO 16548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-13 12:38:16.634  INFO 16548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64089 (http) with context path ''
+2019-05-13 12:38:16.635  INFO 16548 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Started SmartcardApplication in 0.416 seconds (JVM running for 2391.717)
+2019-05-13 12:38:16.636  INFO 16548 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-13 12:54:13.496 ERROR 11636 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'DEBUG, stdout, file' for 'null'
+2019-05-13 12:54:13.501  INFO 11636 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Starting SmartcardApplication on WKWIN3386050 with PID 11636 (started by narkumar8 in C:\Users\narkumar8\Bench Workspace\smartcard)
+2019-05-13 12:54:13.501  INFO 11636 --- [restartedMain] c.s.smartcard.SmartcardApplication       : No active profile set, falling back to default profiles: default
+2019-05-13 12:54:13.760  INFO 11636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-05-13 12:54:13.761  INFO 11636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-13 12:54:13.761  INFO 11636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-13 12:54:13.773  INFO 11636 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-13 12:54:13.773  INFO 11636 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 270 ms
+2019-05-13 12:54:13.841  INFO 11636 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:54:13.905  INFO 11636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-13 12:54:13.921  INFO 11636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64246 (http) with context path ''
+2019-05-13 12:54:13.921  INFO 11636 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Started SmartcardApplication in 0.47 seconds (JVM running for 789.466)
+2019-05-13 12:54:13.922  INFO 11636 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-13 12:54:52.233  INFO 11636 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

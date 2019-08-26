@@ -1,0 +1,61 @@
+2019-05-13 12:39:23.158 ERROR 20940 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'DEBUG, stdout, file' for 'null'
+2019-05-13 12:39:23.223  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Starting SmartcardApplication on WKWIN3386050 with PID 20940 (started by narkumar8 in C:\Users\narkumar8\Bench Workspace\smartcard)
+2019-05-13 12:39:23.224  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : No active profile set, falling back to default profiles: default
+2019-05-13 12:39:23.256  INFO 20940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-13 12:39:23.257  INFO 20940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-13 12:39:24.264  INFO 20940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-05-13 12:39:24.284  INFO 20940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-13 12:39:24.284  INFO 20940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-13 12:39:24.359  INFO 20940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-13 12:39:24.359  INFO 20940 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1101 ms
+2019-05-13 12:39:24.624  INFO 20940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:39:24.809  INFO 20940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-13 12:39:24.855  INFO 20940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64107 (http) with context path ''
+2019-05-13 12:39:24.859  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Started SmartcardApplication in 2.015 seconds (JVM running for 2.71)
+2019-05-13 12:39:41.686  INFO 20940 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-13 12:39:41.686  INFO 20940 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-13 12:39:41.694  INFO 20940 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-05-13 12:39:41.776  WARN 20940 --- [http-nio-auto-1-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.sapient.smartcard.Exception.CardNotFoundException: No Card Found in System::]
+2019-05-13 12:40:10.226  INFO 20940 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:40:10.487 ERROR 20940 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'DEBUG, stdout, file' for 'null'
+2019-05-13 12:40:10.492  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Starting SmartcardApplication on WKWIN3386050 with PID 20940 (started by narkumar8 in C:\Users\narkumar8\Bench Workspace\smartcard)
+2019-05-13 12:40:10.492  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : No active profile set, falling back to default profiles: default
+2019-05-13 12:40:10.756  INFO 20940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-05-13 12:40:10.757  INFO 20940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-13 12:40:10.757  INFO 20940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-13 12:40:10.769  INFO 20940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-13 12:40:10.769  INFO 20940 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 275 ms
+2019-05-13 12:40:10.847  INFO 20940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:40:10.921  INFO 20940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-13 12:40:10.940  INFO 20940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64120 (http) with context path ''
+2019-05-13 12:40:10.940  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Started SmartcardApplication in 0.474 seconds (JVM running for 48.791)
+2019-05-13 12:40:10.942  INFO 20940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-13 12:40:19.537  INFO 20940 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:40:19.840 ERROR 20940 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'DEBUG, stdout, file' for 'null'
+2019-05-13 12:40:19.844  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Starting SmartcardApplication on WKWIN3386050 with PID 20940 (started by narkumar8 in C:\Users\narkumar8\Bench Workspace\smartcard)
+2019-05-13 12:40:19.844  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : No active profile set, falling back to default profiles: default
+2019-05-13 12:40:20.081  INFO 20940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-05-13 12:40:20.082  INFO 20940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-13 12:40:20.082  INFO 20940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-13 12:40:20.095  INFO 20940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-13 12:40:20.095  INFO 20940 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 249 ms
+2019-05-13 12:40:20.164  INFO 20940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:40:20.230  INFO 20940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-13 12:40:20.248  INFO 20940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64128 (http) with context path ''
+2019-05-13 12:40:20.248  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Started SmartcardApplication in 0.428 seconds (JVM running for 58.099)
+2019-05-13 12:40:20.249  INFO 20940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-13 12:40:25.745  INFO 20940 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:40:26.019 ERROR 20940 --- [restartedMain] o.s.b.c.l.LoggingApplicationListener     : Cannot set level 'DEBUG, stdout, file' for 'null'
+2019-05-13 12:40:26.023  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Starting SmartcardApplication on WKWIN3386050 with PID 20940 (started by narkumar8 in C:\Users\narkumar8\Bench Workspace\smartcard)
+2019-05-13 12:40:26.023  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : No active profile set, falling back to default profiles: default
+2019-05-13 12:40:26.254  INFO 20940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-05-13 12:40:26.255  INFO 20940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-13 12:40:26.256  INFO 20940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-13 12:40:26.269  INFO 20940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-13 12:40:26.269  INFO 20940 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 244 ms
+2019-05-13 12:40:26.340  INFO 20940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-13 12:40:26.454  INFO 20940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-13 12:40:26.474  INFO 20940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64136 (http) with context path ''
+2019-05-13 12:40:26.475  INFO 20940 --- [restartedMain] c.s.smartcard.SmartcardApplication       : Started SmartcardApplication in 0.475 seconds (JVM running for 64.325)
+2019-05-13 12:40:26.476  INFO 20940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-13 12:40:31.344  INFO 20940 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
