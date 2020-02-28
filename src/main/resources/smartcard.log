@@ -1749,3 +1749,7 @@ Caused by: com.sapient.smartcard.Exception.MinimumBalanceException: Require mini
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
 	at com.sapient.smartcard.aop.LoggerExceptionAspect.aroundServiceActivateSmartCard(LoggerExceptionAspect.java:101)
 	... 85 more
+2020-02-28 12:39:25 INFO  LoggerExceptionAspect:57 - Fething the registered card from Service::
+2020-02-28 12:39:25 INFO  LoggerExceptionAspect:57 - Fething the registered card from Service::
+2020-02-28 12:40:36 INFO  LoggerExceptionAspect:57 - Fething the registered card from Service::
+2020-02-28 12:40:36 INFO  LoggerExceptionAspect:57 - Fething the registered card from Service::

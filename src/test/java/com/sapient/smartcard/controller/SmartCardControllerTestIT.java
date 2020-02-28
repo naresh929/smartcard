@@ -82,6 +82,7 @@ public class SmartCardControllerTestIT {
 	public void testGetCardBalance_CardNotFound() throws Exception {
 		ResponseEntity<Map> responseEntity = restTemplate.getForEntity(createURLWithPort("/balance/12345"), Map.class);
 		assertEquals(404,responseEntity.getStatusCodeValue());
+		System.out.println("Hello");
 		assertEquals("No Card Found in System with card ID::12345", responseEntity.getBody().get("message"));
 	}
 	
