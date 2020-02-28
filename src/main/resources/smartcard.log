@@ -1759,3 +1759,5 @@ Caused by: com.sapient.smartcard.Exception.MinimumBalanceException: Require mini
 2020-02-28 13:55:43 INFO  LoggerExceptionAspect:57 - Fething the registered card from Service::
 2020-02-28 15:48:38 INFO  LoggerExceptionAspect:57 - Fething the registered card from Service::
 2020-02-28 15:48:38 INFO  LoggerExceptionAspect:57 - Fething the registered card from Service::
+2020-02-28 16:00:01 INFO  LoggerExceptionAspect:57 - Fething the registered card from Service::
+2020-02-28 16:00:01 INFO  LoggerExceptionAspect:57 - Fething the registered card from Service::

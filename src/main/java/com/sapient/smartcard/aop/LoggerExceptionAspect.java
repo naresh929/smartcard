@@ -5,10 +5,11 @@ package com.sapient.smartcard.aop;
 
 import java.util.Optional;
 
-import org.apache.log4j.Logger;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Configuration;
 
 import com.sapient.smartcard.Exception.CardNotFoundException;
@@ -26,7 +27,7 @@ import com.sapient.smartcard.beans.SmartCard;
 @Configuration
 public class LoggerExceptionAspect {
 
-	final static Logger logger = Logger.getLogger(LoggerExceptionAspect.class);
+	final static Logger logger = LoggerFactory.getLogger(LoggerExceptionAspect.class);
 
 	/**
 	 * @param joinPoint
