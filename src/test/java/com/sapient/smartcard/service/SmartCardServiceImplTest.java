@@ -35,8 +35,8 @@ import com.sapient.smartcard.repository.SmartCardRepository;
  * @author narkumar8
  *
  */
-@RunWith(SpringRunner.class)
-@SpringBootTest
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
 public class SmartCardServiceImplTest {
 //
 //	@InjectMocks

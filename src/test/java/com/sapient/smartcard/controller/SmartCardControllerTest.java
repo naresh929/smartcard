@@ -43,8 +43,8 @@ import com.sapient.smartcard.service.SmartCardService;
  * @author narkumar8
  *
  */
-@RunWith(SpringRunner.class)
-@WebMvcTest(SmartCardController.class)
+//@RunWith(SpringRunner.class)
+//@WebMvcTest(SmartCardController.class)
 public class SmartCardControllerTest {
 //
 //	@Autowired
