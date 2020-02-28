@@ -51,8 +51,7 @@ public class SmartCardServiceImpl implements SmartCardService {
 					"Require minimum amount " + Constant.MINIMUM_BALANCE + " to activate new card");
 		}
 		int cardId = Utils.generateUniqueId();
-		return Optional.of(SmartCard.builder().cardHolderName(cardHolderName).balance(amount).cardId(cardId)
-				.destinationStation("").sourceStation("").build()).map(e -> {
+		return Optional.of(new SmartCard(cardHolderName,amount,cardId,"","")).map(e -> {
 					smartCardRepo.addSmartCard(e);
 					return e;
 				}).orElseThrow(
